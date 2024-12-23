@@ -16,9 +16,15 @@
             box-sizing: border-box;
         }
 
+        a {
+
+            text-decoration: none;
+        }
+
         body {
             background-color: #928A97;
             background-image: url("https://images.pexels.com/photos/257909/pexels-photo-257909.jpeg?fit=crop&w=1920&h=1280");
+            background-position: 45%;
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
@@ -200,6 +206,26 @@
             align-items: center;
             -ms-flex-align: center;
             text-align: center;
+
+            .happy {
+                position: fixed;
+                top: 45%;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                transform: translateY(-50%);
+                font-family: 'Love Ya Like A Sister', cursive;
+                font-size: 30px;
+                color: #c70012;
+            }
+
+            a {
+                width: 100%;
+                text-align: center;
+                transform: translateY(-50%);
+                font-family: 'Love Ya Like A Sister', cursive;
+                font-size: 20px;
+            }
         }
 
         @media (max-width: 767px) {
@@ -519,8 +545,8 @@
                 </div>
             </div>
             <div class="card-page cart-page-bottom">
-                <p>园姐圣诞快乐<br><br>
-                    <a href="./Merry-Christmas/index.html">白猫</a>
+                <p><span class="happy">圣诞快乐</span><br><br>
+                    <a href="./Merry-Christmas/index.html">---白猫赠</a>
                 </p>
             </div>
         </div>
